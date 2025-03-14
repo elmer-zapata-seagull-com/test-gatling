@@ -1,0 +1,12 @@
+Feature: Check Application Edition
+Scenario: Print Job Field object shows current application edition (Enterprise)
+ Given the user is using Enterprise BarTender
+ When the user creates a Text object
+ And the user opens Text Properties dialog
+ And the user clicks on "Sample Text" node
+ And the user clicks on the "Change Data Source Type" button
+ And the user selects "Print Job Field"
+ And the user clicks on the "Next" button
+ And the user selects "Application Edition"
+ And the user clicks on the "Finish" button
+ Then the user should see Text object shows "Enterprise"
