@@ -1,0 +1,9 @@
+@C334846 @Non-English OS Verification
+Feature: Activate BarTender
+Scenario: Successful activation of BarTender
+Given: The user has installed BarTender
+When: The user enters a valid PKC in the Licensing Wizard
+And: The user clicks Next
+And: The user selects their license
+And: The user clicks Next
+Then: The Activation Wizard shows Activation Successful message to the user
