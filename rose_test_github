@@ -1,0 +1,6 @@
+Feature: Select a Template from Template Manager
+Scenario: User selected a template from the default template browser
+Given: The user is in the template Manager page
+When: the user clicks on a template
+And: clicks next
+Then: The user goes into the Document Name page where the selected template preview is displayed and ready for accepting Name
