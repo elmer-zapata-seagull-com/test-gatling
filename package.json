@@ -1,0 +1,14 @@
+{
+  "name": "test-gatling",
+  "version": "1.0.0",
+  "description": "",
+  "main": "David's.js",
+  "scripts": {
+    "test": "echo \"Error: ko test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/elmer-zapata-seagull-com/test-gatling.git"
+  },
+  "private": true
+}
