@@ -1,0 +1,11 @@
+Feature: Organize the Printer List
+Scenario: Successful Selecting Mobile Printer as Default
+Given User has one printer shared with the cloud from the mobile app
+And User is on the Account Management > Print Settings page
+When User selects the Default Printer dropdown
+And Clicks the local printers section
+And Selects the local printer
+And Clicks the save button
+Then Default printer is set
+And Save button is grayed out
+ 
