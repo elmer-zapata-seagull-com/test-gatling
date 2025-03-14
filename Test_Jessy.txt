@@ -1,0 +1,8 @@
+@TC-001 @PrintDocument @RegressionTest
+Feature: Print a File to PDF Printer
+
+  Scenario: Successfully print a file to a PDF printer
+    Given a file "document.btw" is available
+    And the PDF printer is ready
+    When I click "Print"
+    Then the printer should print the file successfully
