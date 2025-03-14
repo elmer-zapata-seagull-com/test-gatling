@@ -5,4 +5,4 @@ When the user click New, Upload a File in Librarian
 And selects a btw file from File browser
 And click Open
 Then the user should see the file highlighted in Librarian
-Then one more line
+New line
