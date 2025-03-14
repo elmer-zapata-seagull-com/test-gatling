@@ -1,4 +1,4 @@
-@TC-0001 @RegressionTesting
+@TC-0001 @RegressionTesting @smokeTesting
 Feature: Upload a file to Bartender Cloud
 Scenario: Successful upload file in Bartender Cloud 
 When the user click New, Upload a File in Librarian
