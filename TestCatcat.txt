@@ -1,0 +1,9 @@
+Feature: Spaces
+Scenario: Successful edit of Space
+   Given the user is in Space page
+   When the user change Space ID to “NewSpaceID”
+   And the user change SpaceName to “NewSpaceName”
+   And the user change SpaceDescription to “NewSpaceDescription”
+   And the user clicks Save
+   And the user clicks Edit
+   Then modified changes should be displayed
