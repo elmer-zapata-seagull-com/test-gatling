@@ -1,0 +1,18 @@
+This is just an example file.
+
+1. pull repository in powershell.
+2. created folder in D:
+3. opened project in vsc.
+    - created a new file within the project.
+4. invited to repository; can't submit changes if not part of repo.
+5. in vsc, click 'source control' 
+6. in vsc, click 'branch' in bottom left.
+7. follow on-screen instruction to create new branch.
+8. source control > changes, see graph also.
+9. added comment in 'changes' section, then...
+10. click 'commit' to see changes (you can already see changes in VSC).
+11. needed to fix '.gitconfig' (C:\Users\your-account)
+    - included '[user]' and name and email vars
+    - saved '.gitconfig' and then retried; success!
+12. in 'source control', next to 'changes', click ellipsis:
+    - click 'push' to push/publish changes to the repo.
