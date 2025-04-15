@@ -1,0 +1,9 @@
+Feature: Printer redirection
+Scenario: Printer redirection dialog shows up to choose valid printer
+Given User open an existing BarTender template
+And BarTneder Designer to check Printer source that stored in meta data of BTW file
+When Pirnter does not exist in current Printer name source
+And Printer Redirection dialog is opened
+And Select a valid local printer
+Then Printer redirection is set
+And BarTender Designer continuing opening the document
